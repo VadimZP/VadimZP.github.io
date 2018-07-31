@@ -544,7 +544,7 @@ h3 {
     width: 45px;
     height: 35px;
     content: "";
-    background-image: url("./img/quotes.png"); }
+    background-image: url("../img/quotes.png"); }
     @media screen and (max-width: 768px) {
       .review::before, .review::after {
         width: 35px;
