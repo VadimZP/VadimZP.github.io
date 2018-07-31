@@ -1,0 +1,30 @@
+@import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers';
+
+.hamburger {
+    z-index: 10;
+    &:hover {
+        opacity: 1;
+    }
+    @media screen and (min-width: 769px) {
+        display: none;
+    }
+}
+
+.top-nav_hamburger {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+        background: $white !important;
+    }
+}
+
+.bottom-nav_hamburger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+        background: #000;
+    }
+}

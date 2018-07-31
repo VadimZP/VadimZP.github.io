@@ -1,0 +1,96 @@
+.profile {
+  position: absolute;
+  top: -50%;
+  left: 20%;
+  text-align: center;
+  transform: translateY(50%);
+  @media screen and (max-width: 1120px) {
+    left: 50px;
+  }
+  @media screen and (max-width: 950px) {
+    top: -70%;
+    left: 0;
+  }
+  .profile-img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 65px;
+    overflow: hidden;
+    background-color: $grey1;
+    border: 2px solid $white;
+    border-radius: 50%;
+    @media screen and (max-width: 950px) {
+      visibility: hidden;
+    }
+    img {
+      position: absolute;
+      right: 0;
+      left: 0;
+    }
+  }
+  .name {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    left: 0;
+    margin-bottom: 0;
+    color: $white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .post {
+    @extend .name;
+    bottom: -40px;
+    font-size: 14px;
+  }
+}
+
+.review {
+  position: relative;
+  left: 150px;
+  max-width: 470px;
+  margin: auto;
+  color: $white;
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+  @media screen and (max-width: 950px) {
+    left: 0;
+    width: 70%;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 510px) {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  &::before, &::after {
+    @include x-bg-img(cover, no-repeat, center);
+    display: block;
+    width: 45px;
+    height: 35px;
+    content: "";
+    background-image: url("../../img/quotes.png");
+    @media screen and (max-width: 768px) {
+      width: 35px;
+      height: 25px;
+    }
+  }
+  &::after {
+    position: absolute;
+    right: -15%;
+    bottom: -20%;
+  }
+  &::before {
+    position: absolute;
+    top: -20%;
+    left: -15%;
+  }
+}

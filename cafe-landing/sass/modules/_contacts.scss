@@ -1,0 +1,30 @@
+.contacts {
+  justify-content: center;
+  text-align: center;
+  .mail, .phone {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .mail {
+    margin-bottom: 15px;
+    span {
+      font-variant: small-caps;
+    }
+  }
+  .phone {
+    margin-bottom: 25px;
+  }
+  .socials {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    & > li {
+      margin-right: 25px;
+      color: #fff;
+      font-size: 25px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "cafe-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass-import": "^1.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-plumber": "^1.2.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-wait": "0.0.2",
+    "hamburgers": "^0.9.3",
+    "lazyload": "^2.0.0-beta.2",
+    "swiper": "^4.3.3"
+  }
+}

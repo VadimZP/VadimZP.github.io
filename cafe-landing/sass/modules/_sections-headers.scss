@@ -1,0 +1,42 @@
+.section-header {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 60px;
+  text-align: center;
+  &::after {
+    display: block;
+    width: 112px;
+    height: 2px;
+    content: "";
+    background-color: #dfdfdf;
+  }
+  h2 {
+    margin-bottom: 15px;
+  }
+}
+
+.info-header {
+  margin-bottom: 45px;
+  text-align: center;
+  h2 {
+    max-width: 407px;
+    margin-bottom: 45px;
+    color: $smoke2;
+    font-family: "Yeseva One";
+    font-size: 85px;
+    font-weight: 400;
+    @media screen and (max-width: 500px) {
+      margin-bottom: 25px;
+      font-size: 45px;
+    }
+  }
+  h3 {
+    max-width: 360px;
+    color: $grey2;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}

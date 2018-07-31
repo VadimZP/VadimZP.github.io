@@ -1,0 +1,36 @@
+// slideout.js ==========
+.slideout-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  display: none;
+  width: 256px;
+  min-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slideout-menu-left {
+  left: 0;
+}
+
+.slideout-menu-right {
+  right: 0;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  will-change: transform;
+}
+
+.slideout-open, .slideout-open body, .slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+// ==========

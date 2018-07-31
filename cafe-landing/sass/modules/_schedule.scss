@@ -1,0 +1,39 @@
+.schedule {
+  justify-content: space-around;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  & > li {
+    color: #303030;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    &::after {
+      margin: 15px auto 0;
+      display: block;
+      width: 23px;
+      height: 23px;
+      content: "";
+      background-color: #7cc576;
+      border-radius: 50%;
+    }
+    &:first-child::after {
+      display: block;
+      width: 23px;
+      height: 23px;
+      content: "";
+      background-color: #ed1c24;
+      border-radius: 50%;
+    }
+    &:last-child::after {
+      display: block;
+      width: 23px;
+      height: 23px;
+      content: "";
+      background-color: #603913;
+      border-radius: 50%;
+    }
+  }
+}

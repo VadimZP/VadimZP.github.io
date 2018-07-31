@@ -1,0 +1,37 @@
+.legend {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  span {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .open-1 {
+    color: #7cc576;
+    margin-right: 15px;
+  }
+  .open-2 {
+    color: #603913;
+    margin-right: 15px;
+
+  }
+  .closed {
+    color: #ed1c24;
+  }
+  p {
+    color: #303030;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+  }
+  .numeral {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

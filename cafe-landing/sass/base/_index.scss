@@ -1,0 +1,21 @@
+@import "reset";
+@import "helpers";
+* {
+  box-sizing: border-box;
+  transition: all 300ms;
+}
+
+html {
+  font: 16px "Trebuchet MS";
+}
+
+header, section {
+  position: relative;
+}
+
+button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
