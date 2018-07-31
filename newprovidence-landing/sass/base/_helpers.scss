@@ -1,0 +1,16 @@
+// ************************************
+// Variables
+// ************************************
+
+$green: #093;
+
+
+// ************************************
+// Mixins
+// ************************************
+
+@mixin x-bg-img($size, $repeat, $position) {
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+}

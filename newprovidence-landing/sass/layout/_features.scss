@@ -1,0 +1,37 @@
+// ************************************
+// Features section
+// ************************************
+#features {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba($color: #26272d, $alpha: .05);
+  border-radius: 1px;
+  @media screen and (min-width: 992px) {
+    padding: 120px 0;
+  }
+}
+.feature {
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    padding: 0 50px;
+  }
+  @media screen and (min-width: 1140px) {
+    text-align: left;
+  }
+  img {
+    margin-bottom: 15px;
+    @media screen and (min-width: 992px) {
+      margin-bottom: 45px;
+    }
+  }
+  h2 {
+    margin-bottom: 15px;
+    color: #26272d;
+    font-family: "Lato", sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    @media screen and (min-width: 992px) {
+      margin-bottom: 45px;
+    }
+  }
+}

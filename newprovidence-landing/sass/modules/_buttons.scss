@@ -1,0 +1,44 @@
+.btn-1 {
+  width: 142px;
+  padding: .8em 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  background-color: rgba($color: #fff, $alpha: .1);
+  border: 1px solid rgba($color: #26272d, $alpha: .1);
+  border-radius: 21px;
+}
+.btn-video {
+  @extend .btn-1;
+  width: 205px;
+  color: #26272d;
+  i {
+    position: relative;
+    right: 10px;
+    font-size: 10px;
+  }
+}
+
+
+.btn-2 {
+  @extend .btn-1;
+  width: 202px;
+  color: #fff;
+  background-color: #267df4;
+  border: none;
+}
+
+.form-btn {
+  @extend .btn-1;
+  width: 164px;
+  color: #fff;
+  background-color: #6fc754;
+  border: none;
+}
+
+.card-button {
+  @extend .btn-1;
+  color: #267df4;
+  background: none;
+  width: 202px;
+  border: 1px solid #267df4;
+}

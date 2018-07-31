@@ -1,0 +1,114 @@
+// ************************************
+// Footer
+// ************************************
+#footer {
+  text-align: center;
+  @media screen and (min-width: 992px) {
+    text-align: left;
+  }
+  .row:first-child {
+    border-bottom: 1px solid rgba($color: #26292c, $alpha: .05);
+    border-radius: 1px;
+  }
+  .row:last-child {
+    padding: 10px 0;
+    @media screen and (min-width: 992px) {
+      padding: 35px 0;
+    }
+  }
+  .logo {
+    margin-bottom: 34px;
+  }
+  .text {
+    margin-top: 34px;
+    margin-bottom: 32px;
+    color: #8c8f94;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .download {
+    margin-bottom: 40px;
+    color: #fff;
+    p {
+      font-family: "Lato", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+    a {
+      max-width: 210px;
+      padding: 5px 0;
+      font-family: "Lato", sans-serif;
+      font-size: 12px;
+      line-height: 22px;
+      background-color: #131315;
+      border-radius: 8px;
+      @media screen and (max-width: 992px) {
+        margin: 0 auto;
+      }
+      i {
+        position: relative;
+        left: -15px;
+        font-size: 25px;
+      }
+      span {
+        font-size: 23px;
+      }
+    }
+  }
+  .socials {
+    li {
+      color: #bebec0;
+    }
+    margin-bottom: 30px;
+  }
+
+  .learn, .about, .support {
+    margin: 10px;
+    .list-title {
+      margin-bottom: 26px;
+      color: #26272d;
+      font-family: "Lato", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+    li {
+      color: #8c8f94;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 36px;
+    }
+  }
+  .visit {
+    color: #8c8f94;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    a {
+      color: #3b55e6;
+      text-decoration: underline;
+    }
+  }
+  .mockup_author {
+    margin-top: 10px;
+    color: #26272d;
+    font-family: "Lato", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+    i {
+      margin-left: 5px;
+      font-size: 30px;
+    }
+  }
+}
