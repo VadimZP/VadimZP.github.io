@@ -1,0 +1,54 @@
+// Partner section ========== 
+#partner {
+  padding: 250px 35px 0 35px;
+  @media screen and (max-width: 1400px) {
+    padding-top: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+  }
+  @media screen and (max-width: 425px) {
+    padding: 50px 10px 0;
+  }
+  h2 {
+    margin-bottom: 130px;
+    text-align: center;
+  }
+  .information {
+    display: flex;
+    margin-bottom: 75px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  h3 {
+    position: relative;
+    top: -15px;
+    margin-right: 55px;
+    @media screen and (min-width: 1200px) {
+      font-size: 56px;
+    }
+    @media screen and (max-width: 768px) {
+      margin-right: 0;
+      font-size: 35px;
+      text-align: center;
+    }
+  }
+  p {
+    color: $light-coffee;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    @media screen and (max-width: 1200px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 768px) {
+      line-height: 25px;
+    }
+  }
+  .btn {
+    display: block;
+    margin: auto;
+  }
+} // ==========

@@ -1,0 +1,55 @@
+h1 {
+  position: relative;
+  padding: 0 10px;
+  margin-bottom: 110px;
+  color: $light-coffee;
+  font-family: "Playfair Display", serif;
+  font-size: 4.7vmax;
+  font-weight: 400;
+  @media screen and (max-width: 550px) {
+    margin-bottom: 60px;
+  }
+}
+
+h2 {
+  color: $cream;
+  font-family: "Playfair Display", serif;
+  font-size: 4.8vw;
+  font-weight: 400;
+  letter-spacing: 1.17px;
+  text-transform: uppercase;
+  @media screen and (min-width: 1440px) {
+    font-size: 72px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+}
+
+h3 {
+  color: $light-coffee;
+  font-family: "Playfair Display", serif;
+  font-size: 5.5vw;
+  font-weight: 400;
+  line-height: 66px;
+  @media screen and (min-width: 1200px) {
+    font-size: 56px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+    font-size: 35px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    line-height: 45px !important;
+  }
+}
+
+.main-text {
+  color: $light-coffee;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}

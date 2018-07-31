@@ -1,0 +1,19 @@
+// Header ==========
+#header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 15px 35px;
+  @media screen and (max-width: 1345px) {
+    padding: 15px 20px;
+  }
+  @media screen and (max-width: 1195px) {
+    padding: 15px 40px;
+  }
+  @media screen and (max-width: 850px) {
+    padding: 5px 40px;
+  }
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
+} // ==========

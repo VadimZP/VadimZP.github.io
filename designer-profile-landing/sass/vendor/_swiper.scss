@@ -1,0 +1,181 @@
+.swiper-body {
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  margin-bottom: 90px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 40px;
+  }
+  .swiper-container {
+    width: 81.5%;
+    @media screen and (max-width: 1635px) {
+      margin-left: 0;
+    }
+    @media screen and (max-width: 860px) {
+      margin: auto;
+    }
+    @media screen and (max-width: 425px) {
+      width: 100%;
+    }
+  }
+  .buttons-wrapper {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    @media screen and (max-width: 1635px) {
+      position: absolute;
+      right: 60px;
+    }
+    @media screen and (max-width: 1240px) {
+      position: absolute;
+      right: 20px;
+    }
+    @media screen and (max-width: 960px) {
+      position: absolute;
+      right: 0;
+    }
+    @media screen and (max-width: 860px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 425px) {
+      top: -70px;
+    }
+  }
+  .btn-swipe-next, .btn-swipe-prev {
+    outline: none;
+    cursor: pointer !important;
+    border-top: 1px solid rgba(209, 180, 182, 0.5);
+    border-bottom: 1px solid rgba(209, 180, 182, 0.5);
+    height: 50px;
+    position: static !important;
+    width: 130px;
+    @media screen and (max-width: 860px) {
+      position: absolute !important;
+      transform: translateY(50%);
+    }
+    @media screen and (max-width: 425px) {
+      z-index: 5;
+      width: 70px;
+    }
+  }
+  .btn-swipe-next {
+    margin-bottom: 20px !important;
+    background: url("../../img/arrow-next.png") no-repeat center center;
+    @media screen and (max-width: 860px) {
+      right: -20px;
+      margin-bottom: 0 !important;
+      background: url("../../img/arrow-next-mobile.png") no-repeat center center;
+      border: none;
+    }
+    @media screen and (max-width: 650px) {
+      right: -50px;
+    }
+    @media screen and (max-width: 425px) {
+      right: 20px;
+      background: url("../../img/arrow-next-mobile.png") no-repeat 69% 49%;
+      background-color: rgba(255, 255, 255, .8) !important;
+      box-shadow: $cream 0 0 3px;
+      border-radius: 4px;
+    }
+  }
+  .btn-swipe-prev {
+    background: url("../../img/arrow-prev.png") no-repeat center center;
+    @media screen and (max-width: 860px) {
+      left: -20px;
+      background: url("../../img/arrow-prev-mobile.png") no-repeat center center;
+      border: none;
+    }
+    @media screen and (max-width: 650px) {
+      left: -50px;
+    }
+    @media screen and (max-width: 425px) {
+      left: 20px;
+      background: url("../../img/arrow-prev-mobile.png") no-repeat 29% 49%;
+      background-color: rgba(255, 255, 255, .8) !important;
+      box-shadow: $cream 0 0 3px;
+      border-radius: 4px;
+    }
+  }
+  .swiper-slide {
+    height: 230px;
+  }
+}
+
+// Partner swiper
+.swiper-body .item-1 {
+  .swiper-slide {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 10px;
+  }
+  .swiper-slide img {
+    max-width: 100%;
+  }
+}
+
+// Partners swiper
+.swiper-body .item-2 {
+  .swiper-slide {
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    &:hover {
+      time, p {
+        color: $cream;
+      }
+    }
+    figcaption {
+      padding-top: 30px;
+      @media screen and (max-width: 1024px) {
+        padding-top: 10px;
+      }
+    }
+    div {
+      height: 450px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      @media screen and (max-width: 1440px) {
+        height: 350px;
+      }
+      @media screen and (max-width: 1024px) {
+        height: 250px;
+      }
+    }
+  }
+  time {
+    color: $light-coffee;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    @media screen and (max-width: 1440px) {
+      font-size: 1.2vw;
+    }
+    @media screen and (max-width: 1024px) {
+      font-size: 1.5vw;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  p {
+    padding-top: 15px;
+    color: $light-coffee;
+    font-family: "Playfair Display", serif;
+    font-size: 2vw;
+    font-weight: 400;
+    @media screen and (min-width: 1440px) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: 1024px) {
+      font-size: 2.2vw;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.btn {
+  width: 12em;
+  padding: 1.2em 0;
+  color: $cream;
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-transform: uppercase;
+  background: none;
+  border: 0;
+  border-top: 1px solid $cream-opacity;
+  border-bottom: 1px solid $cream-opacity;
+  outline: none;
+  cursor: pointer;
+  @media screen and (max-width: 1440px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1240px) {
+    font-size: 15px;
+  }
+}
+
+.btn-hero {
+  position: relative;
+  width: 12.5em;
+  padding: 1.1em 0;
+  margin-bottom: 200px;
+  color: $light-coffee;
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-transform: uppercase;
+  background: none;
+  border: 0;
+  border-top: 2px solid $light-coffee-opacity;
+  border-bottom: 2px solid $light-coffee-opacity;
+  outline: none;
+  cursor: pointer;
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 120px;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 850px) {
+    margin-bottom: 60px;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: 13px;
+  }
+}

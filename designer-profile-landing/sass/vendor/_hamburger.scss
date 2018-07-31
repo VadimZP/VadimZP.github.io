@@ -1,0 +1,5 @@
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  background-color: $light-coffee;
+}

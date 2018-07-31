@@ -1,0 +1,87 @@
+// About-me section ========== 
+#about-me {
+    position: relative;
+    display: flex;
+    padding-top: 250px;
+    padding-right: 35px;
+    padding-left: 35px;
+    @media screen and (min-width: 1024px) and (max-width: 1400px) {
+      padding-top: 150px;
+    }
+    @media screen and (max-width: 425px) {
+      padding: 250px 10px 0;
+    }
+    .information {
+      @media screen and (max-width: 1023px) {
+        align-items: flex-end;
+        flex-direction: column;
+        display: flex;
+      }
+      h2 {
+        margin-bottom: 130px;
+        @media screen and (max-width: 1290px) {
+          margin-bottom: 70px;
+        }
+        @media screen and (max-width: 1100px) {
+          margin-bottom: 40px;
+        }
+        @media screen and (max-width: 1024px) {
+          margin-bottom: 30px;
+        }
+        @media screen and (max-width: 768px) {
+          padding: 10px 20px;
+          font-size: 3.5vmax;
+          background: rgba(255, 255, 255, .8);
+        }
+      }
+      h3 {
+        max-width: 720px;
+        margin-bottom: 60px;
+        color: $cream;
+        @media screen and (min-width: 1440px) {
+          font-size: 56px;
+        }
+        @media screen and (max-width: 1100px) {
+          line-height: 50px;
+        }
+        @media screen and (max-width: 1024px) {
+          margin-bottom: 30px;
+        }
+        @media screen and (max-width: 1023px) {
+          max-width: 520px;
+          text-align: right;
+          background: rgba(255, 255, 255, .8);
+        }
+        @media screen and (max-width: 768px) {
+          padding: 0 20px;
+          font-size: 2.5vmax;
+          line-height: 40px;
+        }
+      }
+      h3 span {
+        color: $light-coffee;
+      }
+      p {
+        margin-bottom: 85px;
+        color: $light-coffee;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        @media screen and (max-width: 1200px) {
+          margin-bottom: 40px;
+          font-size: 16px;
+        }
+        @media screen and (max-width: 1023px) {
+          background: rgba(255, 255, 255, .6);
+        }
+        @media screen and (max-width: 768px) {
+          line-height: 25px;
+        }
+      }
+      .btn {
+        margin: auto;
+      }
+    }
+  }
+  // ========== 

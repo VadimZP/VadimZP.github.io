@@ -1,0 +1,24 @@
+// News section ========== 
+#news {
+  padding: 250px 35px 0 35px;
+  @media screen and (max-width: 1400px) {
+    padding-top: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+  }
+  @media screen and (max-width: 425px) {
+    padding: 50px 10px 0;
+  }
+  h2 {
+    margin-bottom: 70px;
+    text-align: center;
+    @media screen and (max-width: 425px) {
+      margin-bottom: 90px !important;
+    }
+  }
+  .btn {
+    display: block;
+    margin: auto;
+  }
+} // ==========
