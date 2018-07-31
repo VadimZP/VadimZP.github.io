@@ -61,7 +61,7 @@
       position: absolute;
       bottom: 0;
       @include x-bg-img (contain, no-repeat, center);
-      background-image: url('../../img/calendar-icon.png');
+      background-image: url('../img/calendar-icon.png');
       display: block;
       content: "";
       width: 20px;
