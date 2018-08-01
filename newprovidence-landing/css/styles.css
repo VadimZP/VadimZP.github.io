@@ -914,6 +914,68 @@ body {
   #slide-menu > li:hover::before {
     width: 100%; }
 
+@font-face {
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../icomoon-fonts/icomoon.eot?41p347");
+  src: url("../../icomoon-fonts/icomoon.eot?41p347#iefix") format("embedded-opentype"), url("../../icomoon-fonts/icomoon.ttf?41p347") format("truetype"), url("../../icomoon-fonts/icomoon.woff?41p347") format("woff"), url("../../icomoon-fonts/icomoon.svg?41p347#icomoon") format("svg"); }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: none; }
+
+.icon-lnkedin:before {
+  content: "\e909"; }
+
+.icon-facebook:before {
+  content: "\e907"; }
+
+.icon-google:before {
+  content: "\e908"; }
+
+.icon-pinterest:before {
+  content: "\e90a"; }
+
+.icon-tumbler:before {
+  content: "\e90b"; }
+
+.icon-twitter:before {
+  content: "\e90c"; }
+
+.icon-apple:before {
+  color: #fff;
+  content: "\e906"; }
+
+.icon-main-logo:before {
+  content: "\e900"; }
+
+.icon-arrow:before {
+  color: #fff;
+  content: "\e901"; }
+
+.icon-craft-logo:before {
+  content: "\e903"; }
+
+.icon-menu:before {
+  content: "\e902"; }
+
+.icon-on:before {
+  color: #6fc754;
+  content: "\e905"; }
+
+.icon-play:before {
+  content: "\e904"; }
+
 .is-shown {
   display: block !important; }
 
