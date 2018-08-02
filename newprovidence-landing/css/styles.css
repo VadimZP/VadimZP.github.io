@@ -49,6 +49,10 @@ header, section {
 input {
   outline: none; }
 
+#bootstrap-overrides a {
+  text-decoration: none;
+  color: inherit; }
+
 #bootstrap-overrides button {
   outline: none;
   cursor: pointer; }
