@@ -1941,12 +1941,12 @@ h3 {
         width: 70px; } }
   .swiper-body .btn-swipe-next {
     margin-bottom: 20px !important;
-    background: url("./img/arrow-next.png") no-repeat center center; }
+    background: url("../img/arrow-next.png") no-repeat center center; }
     @media screen and (max-width: 860px) {
       .swiper-body .btn-swipe-next {
         right: -20px;
         margin-bottom: 0 !important;
-        background: url("./img/arrow-next-mobile.png") no-repeat center center;
+        background: url("../img/arrow-next-mobile.png") no-repeat center center;
         border: none; } }
     @media screen and (max-width: 650px) {
       .swiper-body .btn-swipe-next {
@@ -1954,18 +1954,18 @@ h3 {
     @media screen and (max-width: 425px) {
       .swiper-body .btn-swipe-next {
         right: 20px;
-        background: url("./img/arrow-next-mobile.png") no-repeat 69% 49%;
+        background: url("../img/arrow-next-mobile.png") no-repeat 69% 49%;
         background-color: rgba(255, 255, 255, 0.8) !important;
         -webkit-box-shadow: #d4b9bb 0 0 3px;
                 box-shadow: #d4b9bb 0 0 3px;
         -webkit-border-radius: 4px;
                 border-radius: 4px; } }
   .swiper-body .btn-swipe-prev {
-    background: url("./img/arrow-prev.png") no-repeat center center; }
+    background: url("../img/arrow-prev.png") no-repeat center center; }
     @media screen and (max-width: 860px) {
       .swiper-body .btn-swipe-prev {
         left: -20px;
-        background: url("./img/arrow-prev-mobile.png") no-repeat center center;
+        background: url("../img/arrow-prev-mobile.png") no-repeat center center;
         border: none; } }
     @media screen and (max-width: 650px) {
       .swiper-body .btn-swipe-prev {
@@ -1973,7 +1973,7 @@ h3 {
     @media screen and (max-width: 425px) {
       .swiper-body .btn-swipe-prev {
         left: 20px;
-        background: url("../../img/arrow-prev-mobile.png") no-repeat 29% 49%;
+        background: url("../img/arrow-prev-mobile.png") no-repeat 29% 49%;
         background-color: rgba(255, 255, 255, 0.8) !important;
         -webkit-box-shadow: #d4b9bb 0 0 3px;
                 box-shadow: #d4b9bb 0 0 3px;
