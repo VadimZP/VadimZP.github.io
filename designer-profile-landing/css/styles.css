@@ -961,30 +961,6 @@ h3 {
 .slideout-open .slideout-menu {
   display: block; }
 
-@font-face {
-  font-family: "icomoon";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../../icomoon/fonts/icomoon.eot");
-  src: url("../../icomoon/fonts/icomoon.eot") format("embedded-opentype"), url("../../icomoon/fonts/icomoon.ttf") format("truetype"), url("../../icomoon/fonts/icomoon.woff") format("woff"), url("../../icomoon/fonts/icomoon.svg") format("svg"); }
-
-[class^="icon-"], [class*=" icon-"] {
-  font-family: "icomoon" !important;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  text-transform: none;
-  speak: none; }
-
-.icon-facebook:before {
-  content: "\e900"; }
-
-.icon-instagram:before {
-  content: "\e901"; }
-
 #panel {
   max-width: 1800px;
   margin: 0 auto;
