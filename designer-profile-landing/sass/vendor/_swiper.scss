@@ -60,11 +60,11 @@
   }
   .btn-swipe-next {
     margin-bottom: 20px !important;
-    background: url("../../img/arrow-next.png") no-repeat center center;
+    background: url("./img/arrow-next.png") no-repeat center center;
     @media screen and (max-width: 860px) {
       right: -20px;
       margin-bottom: 0 !important;
-      background: url("../../img/arrow-next-mobile.png") no-repeat center center;
+      background: url("./img/arrow-next-mobile.png") no-repeat center center;
       border: none;
     }
     @media screen and (max-width: 650px) {
@@ -72,17 +72,17 @@
     }
     @media screen and (max-width: 425px) {
       right: 20px;
-      background: url("../../img/arrow-next-mobile.png") no-repeat 69% 49%;
+      background: url("./img/arrow-next-mobile.png") no-repeat 69% 49%;
       background-color: rgba(255, 255, 255, .8) !important;
       box-shadow: $cream 0 0 3px;
       border-radius: 4px;
     }
   }
   .btn-swipe-prev {
-    background: url("../../img/arrow-prev.png") no-repeat center center;
+    background: url("./img/arrow-prev.png") no-repeat center center;
     @media screen and (max-width: 860px) {
       left: -20px;
-      background: url("../../img/arrow-prev-mobile.png") no-repeat center center;
+      background: url("./img/arrow-prev-mobile.png") no-repeat center center;
       border: none;
     }
     @media screen and (max-width: 650px) {
